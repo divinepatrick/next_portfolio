@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center"> 
+    <img src="assets/next_portfolio-banner.png" align="center" height="150"></img>
+</p>
 
-## Getting Started
+<h1 align="center"> Software Developer NextJS Portfolio &#x26A1; </h1> 
+<h3 align="center"> A clean, beautiful, responsive, and customizable portfolio <br /> template for Software Developers! </h3>
 
-First, run the development server:
+# Sections
+* #### Navbar Section
+* #### Header Section
+* #### About Section
+* #### Services Section
+* #### Work Section
+* #### Contact Section
+* #### Footer Section
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone and Use
+* The website is built using Next.js React framework hence, you'll need to have ```node.js``` and ```npm``` installed
+
+* After successfully installing ```node``` and ```npm```, clone the repository into your local system using the command below: </br>
+```bash 
+git clone https://github.com/divinepatrick/next_portfolio.git
 ```
+This will clone the whole repository in your system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- To download all required dependencies to your sytem, navigate to the directory where your cloned repository lives and execute:
+```node
+npm install
+```
+- Now the project is ready to use. Verify using `npm run dev`, it will open the website locally on your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Customise it to make your own portfolio
+These are pointers to changes you should make in other to Customise this Website
+* Replace `logo.png` , `logo_dark.png` , `profile_img.png` , `user_image,png` in `assets` folder with Yours. ` use thesame naming conventions for your files`
+* Edit Each page with your unique Info
+* You can change the meta data  from `layout.js` in the `/app` directory.
+* To customise the favicon, replace the `favicon.ico` in the `/app` directory with your custom favicon.
+* If you want to take customizations further, `assets.js` is the central asset management system for this app. Tweak as you see fit. Don't forget to change your imports as well.
