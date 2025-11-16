@@ -36,3 +36,8 @@ These are pointers to changes you should make in other to Customise this Website
 * You can change the meta data  from `layout.js` in the `/app` directory.
 * To customise the favicon, replace the `favicon.ico` in the `/app` directory with your custom favicon.
 * If you want to take customizations further, `assets.js` is the central asset management system for this app. Tweak as you see fit. Don't forget to change your imports as well.
+
+
+# See what I'm up to on 🔎
+
+- [LinkedIn](https://linkedin.com/in/divinepatrick)
