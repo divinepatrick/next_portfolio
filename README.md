@@ -37,6 +37,12 @@ These are pointers to changes you should make in other to Customise this Website
 * To customise the favicon, replace the `favicon.ico` in the `/app` directory with your custom favicon.
 * If you want to take customizations further, `assets.js` is the central asset management system for this app. Tweak as you see fit. Don't forget to change your imports as well.
 
+# Technologies used 🛠️
+
+- [Next.js](https://nextjs.org/)
+- [framer](https://motion.dev/docs)
+- [Tailwind v4](http://tailwindcss.com/docs)
+
 
 # See what I'm up to on 🔎
 
