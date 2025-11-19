@@ -28,7 +28,7 @@ const services = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.7, duration: 0.5 }}
                 className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-                I am a frontend developer from Nigeria with 3 Years of experience in multiple technologies like React, NextJS and NodeJS.
+                I am a fullstack developer from Nigeria with 3 Years of experience in multiple technologies like React, NextJS and NodeJS.
             </motion.p>
 
             <motion.div
